@@ -1,5 +1,5 @@
 # 📚 Aula React
-Aplicação criada para estudo de React integrado ao Bootstrap, explorando componentes, responsividade e boas práticas de estruturação de projetos front‑end.
+Aplicação criada para estudo de React integrado, explorando componentes e boas práticas de estruturação de projetos front‑end.
 
 # 🎯 Objetivo
 Este projeto foi desenvolvido como parte de uma aula prática, com foco em:
