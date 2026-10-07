@@ -1,0 +1,57 @@
+h1 {
+    color: #C49841;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dashboard {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.saldo-card {
+    width: 30%;
+    padding: 2rem 3rem;
+    background-color: #FEFEFE;
+    border-radius: 2rem;
+    border-top: 0.8rem solid #C49841;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
+}
+
+.saldo-card h4 {
+    font-size: 1.3rem;
+    margin: 2rem 0 1rem 0;
+    font-weight: 500;
+}
+
+.nome {
+    font-size: 1.2rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: 200;
+}
+
+.saldo {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.saldo.positivo {
+    color: green;
+}
+
+.saldo.negativo {
+    color: red;
+}
+
+.saldo-card:hover {
+    background-color: rgba(196, 152, 64, 0.2);
+}
+
+.icon-dash {
+    color: #C49841;
+    font-size: 5rem;
+}

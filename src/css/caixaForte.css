@@ -1,0 +1,146 @@
+.caixa-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #C49841;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-container {
+    width: 80%;
+    padding: 2rem 3rem 1rem;
+    background-color: #FEFEFE;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+}
+
+.organizacao-card h5 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.organizacao-card p {
+    font-size: 1rem;
+    margin: 0 0 1rem 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+.organizacao-card, .deposito-form {
+    width: 49%;
+}
+
+.input-deposito {
+    margin-bottom: 2rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+.deposito-form input {
+    font-size: 1rem;
+    width: 90%;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+}
+
+.btn-deposito {
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    border: 1px solid #C49841;
+    border-radius: 2rem;
+    background-color: #C49841;
+    font-weight: 100;
+}
+
+.btn-deposito:hover {
+    background-color: white;
+}
+
+.progress-container {
+    width: 90%;
+    font-family: Arial, sans-serif;
+    margin-bottom: 2rem;
+}
+
+/* Fundo cinza da barra completa */
+.progress-track {
+    position: relative;
+    width: 100%;
+    height: 0.8rem;
+    background-color: rgba(196, 152, 64, 0.3);
+    /* Cor cinza/azulada da parte não preenchida */
+    border-radius: 1rem;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Parte preenchida em dourado (controlada por 'width') */
+.progress-fill {
+    height: 100%;
+    width: 65%;
+    /* Define a porcentagem do progresso (ex: 3250 / 5000 = 65%) */
+    background: linear-gradient(to bottom, #f4cf85, #C49841);
+    border-radius: 1rem;
+    border: 1px solid #C49841;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* Marcador em formato de moeda */
+.progress-thumb {
+    position: absolute;
+    right: -0.8rem;
+    /* Ajusta o alinhamento central da moeda no final do preenchimento */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.2rem;
+    height: 1.2rem;
+    background: radial-gradient(circle, #ffe175, #c78d10);
+    border: 2px solid #815602;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    font-size: 1rem;
+    user-select: none;
+}
+
+/* Labels de texto na parte inferior */
+.progress-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.imagem-dinheiro {
+    width: 30%;        /* Ajusta a largura da imagem */
+    height: auto;       /* Mantém as proporções da imagem */
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.title-cartola {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.imagem-cartola {
+    width: 15%;        /* Ajusta a largura da imagem */
+    height: auto;       /* Mantém as proporções da imagem */
+    display: block;
+    margin-right: 1rem;
+}

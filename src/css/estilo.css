@@ -1,0 +1,34 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.nav-area {
+    margin-left: 0;
+    width: 20%;
+    height: 100vh;  
+    position: sticky;
+    box-sizing: border-box;
+}
+
+.content-area{
+    width: 80%;
+    padding: 2rem;
+    background-color: #F2F6FA;
+}
+
+.footer-area{
+    color: black;
+    font-size: 0.8rem;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
